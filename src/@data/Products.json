@@ -1,0 +1,41 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"Arshidsaze",
+            "url":"https://arshidsaze.com/",
+            "image":"/products/arshidsaze.png",
+            "tech":"wordpress",
+            "description":"this is a website with wordpress that show services of Arshidsaze foundation",
+            "location":"Iran, Yazd"
+        },
+        {
+            "id":2,
+            "title":"Nitrogen.Co",
+            "url":"https://www.nitrogenco.com/",
+            "image":"/products/nitrogenco.png",
+            "tech":"react",
+            "description":"this is a website with react.js && tailwind that show services of Arshidsaze foundation",
+            "location":"Iran, Tehran"
+        },
+        {
+            "id":3,
+            "title":"Amazing Dashboard",
+            "url":"https://amazing-dashboard.netlify.app/",
+            "image":"/products/amazing-dashborad.png",
+            "tech":"react",
+            "description":"this is a website with React, rtk query, formik & etc that is a simple panel dashboard",
+            "location":"Iran, Tehran"
+        },
+        {
+            "id":4,
+            "title":"IP Address Tracker",
+            "url":"https://bespoke-axolotl-9cc800.netlify.app/",
+            "image":"/products/ip-address-tracker.png",
+            "tech":"react",
+            "description":"this is a website with React and tailwind that created for resume",
+            "location":"Iran, Tehran"
+        }
+
+    ]
+}

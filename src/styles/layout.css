@@ -1,0 +1,13 @@
+.navbarItem::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.navbarItem:hover:after {
+    width: 100%;
+}
