@@ -7,17 +7,22 @@ export default defineConfig({
   plugins: [react(), VitePWA({
     registerType: 'prompt',
     injectRegister: false,
-
+    includeAssets: ["favicon.png", "apple-touch-icon.jpg", "favicon.png"],
     pwaAssets: {
       disabled: false,
       config: true,
     },
-
     manifest: {
       name: 'Reza-Hosseinzadeh',
       short_name: 'Reza-Hosseinzadeh',
       description: 'This is a personal website && PWA',
       theme_color: '#212121',
+      icons:[
+        {
+          src: 'favicon.png',
+          type: "image/png",
+        }
+      ]
     },
 
     workbox: {
@@ -30,6 +35,7 @@ export default defineConfig({
       enabled: false,
       navigateFallback: 'index.html',
       suppressWarnings: true,
+      navigateFallbackAllowlist: [/^index.html$/],
       type: 'module',
     },
   })],

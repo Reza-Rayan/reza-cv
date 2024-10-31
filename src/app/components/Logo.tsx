@@ -8,7 +8,6 @@ const Logo = () => {
       className="text-2xl font-bold italic font-sans  flex  items-center"
     >
       <img src={logoImg} alt="reza hosseinzadeh" width={100} />
-      <span>Reza Hosseinzadeh</span>
     </Link>
   );
 };

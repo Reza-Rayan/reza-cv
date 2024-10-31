@@ -6,7 +6,7 @@ export default {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["light", "dark", "forest"],
+    themes: ["light", "dark", "forest", "halloween", "sunset", "winter"],
     darkTheme: "forest",
     base: true,
     styled: true,
