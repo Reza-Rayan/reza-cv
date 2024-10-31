@@ -13,8 +13,8 @@ export default defineConfig({
       config: true,
     },
     manifest: {
-      name: 'Reza-Hosseinzadeh',
-      short_name: 'Reza-Hosseinzadeh',
+      name: 'Reza HZ',
+      short_name: 'Reza HZ',
       description: 'This is a personal website && PWA',
       theme_color: '#212121',
       icons:[
@@ -25,7 +25,8 @@ export default defineConfig({
         {
           src: '/apple-touch-icon.jpg',
           type: "image/jpg",
-        }
+        },
+
       ]
     },
 
