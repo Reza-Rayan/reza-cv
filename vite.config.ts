@@ -17,17 +17,30 @@ export default defineConfig({
       short_name: 'Reza HZ',
       description: 'This is a personal website && PWA',
       theme_color: '#212121',
-      icons:[
+      icons: [
         {
-          src: '/favicon.png',
+          src: "pwa-64x64.png",
+          sizes: "64x64",
           type: "image/png",
         },
         {
-          src: '/apple-touch-icon.jpg',
-          type: "image/jpg",
+          src: "pwa-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
         },
-
-      ]
+        {
+          src: "pwa-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "any",
+        },
+        {
+          src: "maskable-icon-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "maskable",
+        },
+      ],
     },
 
     workbox: {
